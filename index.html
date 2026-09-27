@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Terms of Service</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", sans-serif
+}
+.w3-bar,h1,button {
+    font-family: "Montserrat", sans-serif
+}
+.fa-anchor,.fa-coffee,.fa-hourglass,.fa-share,.fa-gavel,.fa-envelope,.fa-phone,.fa-globe,.fa-building,.fa-balance-scale,
+.fa-exclamation-triangle,.fa-external-link,.fa-ban,.fa-exchange,.fa-superpowers,.fa-link,.fa-university,.fa-plus,.fa-undo,
+.fa-stop,.fa-check,.fa-certificate,.fa-thumb-tack,.fa-th-list,.fa-eject,.fa-life-ring,.fa-clock-o,.fa-money,.fa-star {
+    font-size:200px;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <select class="w3-input w3-block" onchange="showSpecificTOS(this)">
+        <option value="" title="select to choose brand specific terms of service">Select: Terms of Service</option>
+        <option value="presspage">PRESSPAGE ENTERTAINMENT INC</option>
+        <option value="snacks4u">dba Snacks-4-U</option>
+        <option value="hireme">dba Hire Me for Work</option>
+        <option value="redeecash">dba REDEECASH</option>
+        <option value="fitnessbrands">dba Fitness Brands</option>
+        <option value="mykronee">dba My Kronee Cafe</option>
+        <option value="pingleware">dba PINGLEWARE</option>
+        <option value="travelingblonde">dba Traveing Blonde</option>
+        <option value="gatorgrocerygardening">dba Gator Grocery &amp; Gardening</option>
+        <option value="verifiedpress">VERIFIEDPRESS.ORG</option>
+        <option value="presspage.app">PRESSPAGE.APP</option>
+    </select>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <select class="w3-input w3-block" onchange="showSpecificTOS(this)">
+        <option value="" title="select to choose brand specific terms of service">Select: Terms of Service</option>
+        <option value="presspage">PRESSPAGE ENTERTAINMENT INC</option>
+        <option value="snacks4u">dba Snacks-4-U</option>
+        <option value="hireme">dba Hire Me for Work</option>
+        <option value="redeecash">dba REDEECASH</option>
+        <option value="fitnessbrands">dba Fitness Brands</option>
+        <option value="mykronee">dba My Kronee Cafe</option>
+        <option value="pingleware">dba PINGLEWARE</option>
+        <option value="travelingblonde">dba Traveing Blonde</option>
+        <option value="gatorgrocerygardening">dba Gator Grocery &amp; Gardening</option>
+        <option value="verifiedpress">VERIFIEDPRESS.ORG</option>
+        <option value="presspage.app">PRESSPAGE.APP</option>
+    </select>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Terms of Service (TOS)</h1>
+  <p class="w3-xlarge"></p>
+  <a href="mailto:presspage.entertainment@gmail?subject=Request%20from%20privacy-policy.page" class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Contact</a>
+  <p class="w3-center">Select a section from the menu above for each specific terms of service.</p>
+</header>
+
+<!-- PRESSPAGE ENTERTAINMENT INC -->
+<div id="presspage-dialog" class="w3-modal">
+    <div class="w3-modal-content">
+        <div class="w3-container w3-white">
+            <h2 class="w3-blue">🔐 Presspage Entertainment Inc Terms of Service</h2>
+            <p></p>
+            <button class="w3-button w3-block w3-black" onclick="document.getElementById('presspage-dialog').style.display='none';">OK</button>
+            <br/>
+        </div>
+    </div>
+</div>
+<!-- SNACKS-4-U -->
+<div id="snacks4u-dialog" class="w3-modal">
+    <div class="w3-modal-content">
+        <div class="w3-container w3-white">
+            <h2 class="w3-blue">🔐 dba Snacks-4-U Terms of Service</h2>
+            <p></p>
+            <button class="w3-button w3-block w3-black" onclick="document.getElementById('snacks4u-dialog').style.display='none';">OK</button>
+            <br/>
+        </div>
+    </div>
+</div>
+<!-- HIRE ME FOR WORK -->
+<div id="hireme-dialog" class="w3-modal">
+    <div class="w3-modal-content">
+        <div class="w3-container w3-white">
+            <h2 class="w3-blue">🔐 dba Hire Me for Work Terms of Service</h2>
+            <p></p>
+            <button class="w3-button w3-block w3-black" onclick="document.getElementById('hireme-dialog').style.display='none';">OK</button>
+            <br/>
+        </div>
+    </div>
+</div>
+<!-- REDEECASH -->
+<div id="redeecash-dialog" class="w3-modal">
+    <div class="w3-modal-content">
+        <div class="w3-container w3-white">
+            <h2 class="w3-blue">🔐 dba REDEECASH Terms of Service</h2>
+            <p></p>
+            <button class="w3-button w3-block w3-black" onclick="document.getElementById('redeecash-dialog').style.display='none';">OK</button>
+            <br/>
+        </div>
+    </div>
+</div>
+<!-- FITNESS BRANDS -->
+<div id="fitnessbrands-dialog" class="w3-modal">
+    <div class="w3-modal-content">
+        <div class="w3-container w3-white">
+            <h2 class="w3-blue">🔐 dba Fitness Brands Terms of Service</h2>
+            <p></p>
+            <button class="w3-button w3-block w3-black" onclick="document.getElementById('fitnessbrands-dialog').style.display='none';">OK</button>
+            <br/>
+        </div>
+    </div>
+</div>
+<!-- MY KRONEE CAFE -->
+<div id="mykronee-dialog" class="w3-modal">
+    <div class="w3-modal-content">
+        <div class="w3-container w3-white">
+            <h2 class="w3-blue">🔐 dba My Kronee Cafe Terms of Service</h2>
+            <p></p>
+            <button class="w3-button w3-block w3-black" onclick="document.getElementById('mykronee-dialog').style.display='none';">OK</button>
+            <br/>
+        </div>
+    </div>
+</div>
+<!-- PINGLEWARE -->
+<div id="pingleware-dialog" class="w3-modal">
+    <div class="w3-modal-content">
+        <div class="w3-container w3-white">
+            <h2 class="w3-blue">🔐 dba PINGLEWARE Terms of Service</h2>
+            <p></p>
+            <button class="w3-button w3-block w3-black" onclick="document.getElementById('pingleware-dialog').style.display='none';">OK</button>
+            <br/>
+        </div>
+    </div>
+</div>
+<!-- TRAVELING BLONDE -->
+<div id="travelingblonde-dialog" class="w3-modal">
+    <div class="w3-modal-content">
+        <div class="w3-container w3-white">
+            <h2 class="w3-blue">🔐 dba Traveling Blonde Terms of Service</h2>
+            <p></p>
+            <button class="w3-button w3-block w3-black" onclick="document.getElementById('travelingblonde-dialog').style.display='none';">OK</button>
+            <br/>
+        </div>
+    </div>
+</div>
+<!-- GATOR GROCERY & GARDENING -->
+<div id="gatorgrocerygardening-dialog" class="w3-modal">
+    <div class="w3-modal-content">
+        <div class="w3-container w3-white">
+            <h2 class="w3-blue">🔐 dba Gator Grocery &amp; Gardening Terms of Service</h2>
+            <p></p>
+            <button class="w3-button w3-block w3-black" onclick="document.getElementById('gatorgrocerygardening-dialog').style.display='none';">OK</button>
+            <br/>
+        </div>
+    </div>
+</div>
+<!-- VERIFIEDPRESS.ORG -->
+<div id="verifiedpress-dialog" class="w3-modal">
+    <div class="w3-modal-content">
+        <div class="w3-container w3-white">
+            <h2 class="w3-blue">🔐 VerifiedPress.org Terms of Service</h2>
+              <p>
+                <ul class="w3-ul">
+                    <li><b>Effective Date:</b> July 17, 2025</li>
+                    <li><b>Last Updated:</b> July 17, 2025</li>
+                </ul>
+                <h4>🧭 1. Overview</h4>
+                <p>VerifiedPress.org (“VerifiedPress”, “we”, “our”, “us”) provides infrastructure for decentralized identity, credential registries, and role-based verification for contributors in the press ecosystem—including journalists, editors, independent authors, and AI entities.</p>
+                <p>By accessing or using our services, users (“you”, “your”) agree to be bound by these Terms. These Terms form a legal agreement governing registry participation, credential interactions, and role attestation.</p>
+                <h4>🧑‍💻 2. Eligibility and Contributor Roles</h4>
+                <p>You may interact with VerifiedPress if you:</p>
+                <ul>
+                  <li>Are a human, organization, or AI agent submitting identity metadata for press-related activity</li>
+                  <li>Hold valid decentralized identifiers (DIDs) or credentials aligned with registry schemas</li>
+                  <li>Agree to comply with provenance, role-based, and verification standards</li>
+                </ul>
+                <p>We reserve the right to restrict roles based on verification, credential revocation, or governance decisions.</p>
+                <h4>🛠️ 3. Use of Services</h4>
+                <p>Permitted uses include:</p>
+                <ul>
+                  <li>Publishing or resolving DID documents</li>
+                  <li>Linking press credentials and role metadata</li>
+                  <li>Discovering public contributor profiles</li>
+                  <li>Verifying provenance and credential integrity</li>
+                </ul>
+                <p>You must not:</p>
+                <ul>
+                  <li>Submit false or deceptive metadata</li>
+                  <li>Bypass registry rules or role validations</li>
+                  <li>Use the service for surveillance, profiling, or harassment</li>
+                </ul>
+                <p>We support opt-in resolution and decentralized privacy preferences.</p>
+                <h4>🛡️ 4. Intellectual Property</h4>
+                <p>You retain ownership of identity data and metadata submitted to VerifiedPress. By participating, you grant us a limited license to:</p>
+                <ul>
+                  <li>Index publicly resolvable metadata</li>
+                  <li>Anchor role and credential summaries for discoverability</li>
+                  <li>Host registry snapshots via decentralized networks</li>
+                </ul>
+                <p>Credential schemas, method specifications, and governance docs are licensed under permissive open-source terms.</p>
+                <h4>🔍 5. Privacy and Data Handling</h4>
+                <p>We process only minimal identity metadata required for resolution and verification. No behavioral profiling, tracking, or advertising occurs. For full details, see our [Privacy Policy](https://privacy-policy.page).</p>
+                <h4>🧾 6. Registry and Credential Integrity</h4>
+                <p>VerifiedPress may:</p>
+                <ul>
+                  <li>Deny indexing of unverifiable metadata</li>
+                  <li>Flag revoked credentials</li>
+                  <li>Apply governance-defined status labels</li>
+                </ul>
+                <p>Contributor rights include:</p>
+                <ul>
+                  <li>Metadata updates</li>
+                  <li>Revocation requests</li>
+                  <li>Credential reissuance</li>
+                </ul>
+                <p>All changes are cryptographically auditable.</p>
+                <h4>👥 7. Governance and Dispute Resolution</h4>
+                <p>VerifiedPress operates under open governance. Any disputes should be directed to:<br/>
+                  <a href="mailto:presspage.entertainment@gmail.com?subject=Governance%20and%20Dispute%20Resolution">📮 `presspage.entertainment@gmail.com`</a>
+                </p>
+                <p>Resolutions will follow transparent protocols and decentralized recordkeeping.</p>
+                <h4>📌 8. Changes to These Terms</h4>
+                <p>We may update these Terms for legal, technical, or governance reasons. Material changes will be announced via the registry and contributor communication channels.</p>
+                <p>Continued use after updates constitutes acceptance.</p>
+                <h4>🌐 Contact Us</h4>
+                <p>For questions, feedback, or governance matters:<br/> 
+                  <a href="mailto:presspage.entertainment@gmail.com?subject=Re:%20VERIFIEDPRESS.ORG%20Terms%20of%20Service">📮 `presspage.entertainment@gmail.com`</a>
+                </p>
+            </p>
+            <button class="w3-button w3-block w3-black" onclick="document.getElementById('verifiedpress-dialog').style.display='none';">OK</button>
+            <br/>
+        </div>
+    </div>
+</div>
+<!-- PRESSPAGE.APP -->
+<div id="presspage.app-dialog" class="w3-modal">
+    <div class="w3-modal-content">
+        <div class="w3-container w3-white">
+            <h2 class="w3-blue">🔐 PRESSPAGE.app Terms of Service</h2>
+            <p>
+                <ul class="w3-ul">
+                    <li><b>Effective Date:</b> March 25, 2026</li>
+                    <li><b>Last Updated:</b> March 25, 2026</li>
+                </ul>
+            </p>
+            <h4>Overview</h4>
+            <p>Welcome to PRESSPAGE.APP, operated by PressPage Entertainment Inc. By accessing or using this website, you agree to the following Terms of Service. If you do not agree with these terms, please discontinue use of the site.</p>
+            <h4>1. Who We Are</h4>
+            <p>PressPage Entertainment Inc operates PRESSPAGE, an automated, real‑time news summary service and 24/7 rolling news stream. Our goal is to provide factual, time‑stamped updates for informational and background‑listening purposes.</p>
+            <h4>2. Use of the Website</h4>
+            <p>You agree to use this website only for lawful purposes and in a manner that does not:</p>
+            <ul>
+                <li>violate any applicable laws or regulations</li>
+                <li>infringe on the rights of others</li>
+                <li>interfere with the operation or security of the site</li>
+            </ul>
+            <h4>3. Intellectual Property</h4>
+            <p>All content on this website—including text, formatting, summaries, and design—is owned by PressPage Entertainment Inc unless otherwise noted. You may not copy, reproduce, or redistribute content without permission.</p>
+            <h4>4. Automated Content</h4>
+            <p>PRESSPAGE uses automated systems to generate real‑time news summaries. While we strive for accuracy, we do not guarantee completeness, timeliness, or error‑free output.</p>
+            <h4>5. Third‑Party Content and Embeds</h4>
+            <p>This site may include embedded content from third‑party platforms (such as Rumble). Embedded content behaves as if you visited the third‑party site directly. We are not responsible for the policies or practices of those platforms.</p>
+            <h4>6. No Professional Advice</h4>
+            <p>Content on this site is provided for general informational purposes only and should not be considered professional, legal, financial, or medical advice.</p>
+            <h4>7. Limitation of Liability</h4>
+            <p></p>PressPage Entertainment Inc is not liable for any damages arising from:
+            <ul>
+                <li>use of the website</li>
+                <li>reliance on automated summaries</li>
+                <li>third‑party content or services</li>
+            </ul>
+            <p>Use of the site is at your own risk.</p>
+            <h4>8. User Accounts (If Applicable)</h4>
+            <p>If you create an account, you are responsible for maintaining the confidentiality of your login credentials and for all activity under your account.</p>
+            <h4>9. Privacy</h4>
+            <p>Your use of this site is also governed by our Privacy Policy: <a href="https://privacy-policy.page" target="_blank">https://privacy-policy.page</a></p>
+            <h4>10. Changes to These Terms</h4>
+            <p>We may update these Terms of Service at any time. Continued use of the site after changes are posted constitutes acceptance of the updated terms.</p>
+            <h4>11. Contact Information</h4>
+            <p>PressPage Entertainment Inc</p>
+            <p>presspage.entertainment@gmail.com</p>
+            <p>P.O. Box 142814</p>
+            <p>Gainesville, FL 32614-2814</p>
+            <p>United States</p>
+            <button class="w3-button w3-block w3-black" onclick="document.getElementById('presspage.app-dialog').style.display='none';">OK</button>
+            <br/>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+<!--
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+-->
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+function showSpecificTOS(element) {
+    if (element.value.length > 0 && document.getElementById(`${element.value}-dialog`)) {
+        document.getElementById(`${element.value}-dialog`).style.display='block';
+    }
+    return false;
+}
+</script>
+
+</body>
+</html>
+
